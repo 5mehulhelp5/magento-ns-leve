@@ -1,0 +1,21 @@
+{
+    "name": "adrocket/module-installment",
+    "description": "Add installment feature to Magento 2",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "email": "adrocket.partner@gmail.com",
+            "name": "Miqueias Guelles"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Adrocket\\Installment\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

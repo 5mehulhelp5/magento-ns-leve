@@ -1,0 +1,22 @@
+{
+    "name": "adrocket/module-autocomplete",
+    "description": "Autocomplete CEP in cart magento 2",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Adrocket",
+            "email": "adrocket.partner@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Adrocket\\Autocomplete\\": ""
+        }
+    }
+}

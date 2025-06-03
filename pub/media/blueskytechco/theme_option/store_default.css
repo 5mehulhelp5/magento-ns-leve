@@ -1,0 +1,160 @@
+/* Custom Data 2024-12-10 14:17:06: Do not change this file. */
+
+:root{
+	/* Page Width */
+	
+	/* Body Font */
+		--font-family-name__base: 'Poppins', sans-serif;
+			--font-size__base: 15px;
+			--text-weight: 500;
+	
+	/* Heading Font */
+			--heading__font-family__base: 'Poppins', sans-serif;
+			--heading__font-weight__base: 700;
+		
+	/* Menu Font */
+		
+	/* Other Font */
+		--other_font_family: 'Poppins', sans-serif;
+	
+	/* Theme Colors */
+		--theme__color__primary: #EB5E9D; 
+	
+	/* Basic Colors */
+		
+	/* Buttons Colors */
+				--button__color: #FFFFFF;
+	--button-primary__color: #FFFFFF;
+		 
+	--button-secondary-bg: #5B6ACB;
+	--button__background: #5B6ACB;
+	--button-primary__background: #5B6ACB;
+			--button__hover__background: #EB5E9D;
+	--button-primary__hover__background: #EB5E9D;
+			--button__hover__color: #FFFFFF;
+	--button-primary__hover__color: #FFFFFF;
+		
+	/* Custom Sticky Background Color */
+	
+	/* Custom Header */
+			--topbarbg: #FF66AA;
+					
+	/* Custom Footer */
+			--footer-title-color: #4854A1;
+				
+	/* Custom Menu */
+			--navigation-level0-item__color: #FFFFFF;
+			--navigation__background: #4854A1;
+				
+	/* Page wraper */
+	}
+@media (min-width: 1200px){
+	.cms-index-index .header-absolute{
+						--navigation__background: #4854A1;
+					}
+	.cms-index-index .header-container:not(.header_scroll_up) .header_light{
+								--navigation-level0-item__color: #FFFFFF;
+						--navigation-desktop-level0-item__hover__color: var(--navigation-level0-item__color);
+										}
+}
+
+
+	body{
+		font-weight: var(--text-weight);
+	}
+	body{
+		font-size: var(--font-size__base);
+	}
+	.minicart-wrapper .block-content .actions .secondary .action.viewcart:not(:hover){
+		--heading__color__base: #FFFFFF;
+	}
+ 
+	button, .cart.table-wrapper .actions-toolbar > .action, .action-gift{
+		border: 1px solid var(--button__background);
+	}
+	
+
+/* Custom Header */
+header.page-header{
+	}
+
+
+
+/* Custom Footer */
+footer.page-footer{
+	}
+
+
+
+
+
+
+/* Customization Style */
+:root{
+--navigation-level0-item__text-transform: uppercase;
+--naviation-level0-item__font-size: 1.4rem;
+--navigation-level0-item__font-weight: 700;
+--bls_elementor-static-menu-title-font-weight: 700;
+-bls_elementor-static-menu-title--font-size: 1.4rem;
+--module_title-font-weight: 800;
+--button__font-weight: 700;
+--topbar-size: 1.4rem;
+--button__text_transform: uppercase;
+--bls_border-height: 2px;
+}
+.hover-link a.pagebuilder-button-link{
+--bls_border-height: 2px;
+}
+b, strong{
+--headings__font-weight-secondary: 700;
+}
+a.pagebuilder-button-link,
+a.pagebuilder-button-secondary{
+    letter-spacing: 0.5px;
+    font-size: 1.4rem;
+}
+.border-top-footer .pagebuilder-column-group{
+border-top: 1px solid #d8d8d8;
+
+}
+.product-item .product-item-details{
+text-align: center;
+}
+.product-item .product-item-details .price-box{
+    justify-content: center;
+}
+.logo-f img{
+width: 165px;
+}
+.elementor__headline{
+letter-spacing: 2px;
+}
+.action.primary, .action-primary{
+    font-size: 14px;
+}
+.elementor-image-box-img{
+    margin-top: 8px !important;
+}
+ul.social-link li a{
+    font-size: 20px;
+}
+footer .elementor-static-menu-title{
+    letter-spacing: 0.5px;
+}
+.show_search-form-2 .header-search-form{
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.flex-layout {justify-content: center;}
+.block-search:not(.search_type_canvas) .search-form:not(.type-list-categories) {border: 2px solid #4854A1  !important;}
+.elementor-image-box-title {font-size: 1.6rem !important;}
+.header-container.layout-13 .rounded .search_type_defaut .search-form:not(.type-list-categories) {--header-icons-color: #ff66aa  !important;}
+.rounded .search_type_defaut .actions .action.search {--search_icon-color: white;background-color: #4854a1;border: 2px solid #4854a1;}
+.search_type_defaut .actions .action.search {border-radius: 0px 30px 30px 0px;}
+.navigation .level0>a:hover {color: #5fd1ff !important;}
+.fs_title_white {color: #ffffff !important;}
+.product-item .product-item-details div[class*="swatch-opt-"] {align-items: center !important;}
+& when (@media-common = true) {.field.street {.field {.label {clip: inherit; width: inherit; height: inherit; position: inherit;}}}}
+.testimonial-job {display: none;}
